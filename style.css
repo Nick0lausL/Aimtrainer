@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #70c5ce; /* Light blue sky background */
+    overflow: hidden; /* Hide scrollbars */
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: #f0f0f0; /* Optional canvas background */
+    display: block; /* Removes potential extra space below canvas */
+}
